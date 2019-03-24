@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallax</title>
+
+    <style type="text/css">
+        /* Configurações padrão da página */
+        body,
+        html {
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        /* Efeito parallax */
+        .caixa1,
+        .caixa2,
+        .caixa3,
+        .caixa4 {
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .caixa1 {
+            background-image: url('imagens/imagem1.jpg');
+        }
+
+        .caixa2 {
+            background-image: url('imagens/imagem2.jpg');
+        }
+
+        .caixa3 {
+            background-image: url('imagens/imagem3.jpg');
+        }
+
+        .caixa4 {
+            background-image: url('imagens/imagem4.jpg');
+        }
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0%;
+            width: 100%;
+            top: 45%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .conteudo-titulo span.titulo {
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">PASSEIO DE BALÕES</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est. Quem
+            num gosta di mim que vai caçá sua turmis! Diuretics paradis num copo é motivis de denguis. Tá deprimidis, eu
+            conheço uma cachacis que pode alegrar sua vidis.
+        </p>
+
+        <p>
+            Casamentiss faiz malandris se pirulitá. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
+            Aenean sit amet nisi. Viva Forevis aptent taciti sociosqu ad litora torquent. Leite de capivaris, leite de
+            mula manquis sem cabeça.
+        </p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pegando a estrada</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est. Quem
+            num gosta di mim que vai caçá sua turmis! Diuretics paradis num copo é motivis de denguis. Tá deprimidis, eu
+            conheço uma cachacis que pode alegrar sua vidis.
+        </p>
+
+        <p>
+            Casamentiss faiz malandris se pirulitá. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
+            Aenean sit amet nisi. Viva Forevis aptent taciti sociosqu ad litora torquent. Leite de capivaris, leite de
+            mula manquis sem cabeça.
+        </p>
+    </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pôr do sol</span>
+        </div>
+    </div>
+
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
